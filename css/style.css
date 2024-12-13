@@ -78,5 +78,38 @@
             background-repeat: repeat;  /* This will tile the image */
             background-size: auto;  
         }
+
+        .navbar { 
+            display: flex; 
+            justify-content: center; /* Centers the links horizontally */ 
+            background-color: #E9AFA3; /* Background color of the navigation bar */ 
+            padding: 10px; /* Padding around the links */ 
+        } /* Style for the list of links */ 
+            
+        .navbar ul { 
+            
+            padding: 0; /* Remove default padding */ 
+            margin: 0; /* Remove default margin */ 
+            display: flex; /* Display list items in a row */ 
+        }/* Style for each list item */ 
+        
+        .navbar li {
+            list-style-type: none;  /* Remove bullets from list */
+            margin: 0 10px; /* Space between links */
+        }
+
+        .cafe { 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            margin: 20px 0; /* Optional: Adds some space around the videos */ 
+        } 
+        
+        .cafe p { 
+            font-size: 20px; 
+            margin-bottom: 10px; /* Space between the name and the iframe */ 
+            text-align: center; 
+            color: #333; 
+        }
         
         
