@@ -1,6 +1,8 @@
-body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+        body {
+            font-family: 'Bakersville', serif;
+            background-color: #8B85C1;
+            margin: 0;
+            padding: 0;
             margin: 0;
             padding: 0;
         }
@@ -43,7 +45,12 @@ body {
             margin-bottom: 5px;
         }
         .main-content {
-            background-color: #fff;
+            width: 100%;  /* Full width of the container */
+            height: 500px;  /* You can adjust the height as needed */
+            background-image: url('your-image-url.jpg');  /* Replace with your image URL */
+            background-repeat: repeat;  /* This will tile the image */
+            background-size: auto; 
+            background-color: #8B85C1;
             width: 70%;
             padding: 20px;
         }
@@ -55,3 +62,21 @@ body {
             font-size: 18px;
             line-height: 1.6;
         }
+
+        .vid {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 20px 0; /* Optional: Adds some space around the videos */
+        }
+
+        .vidpage{
+            width: 100%;  /* Full width of the container */
+            height: 500px;  /* You can adjust the height as needed */
+            background-image: url('pattern.jpg');  /* Replace with your image URL */
+            background-repeat: repeat;  /* This will tile the image */
+            background-size: auto;  
+        }
+        
+        
